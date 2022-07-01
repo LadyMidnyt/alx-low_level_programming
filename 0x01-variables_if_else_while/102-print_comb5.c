@@ -5,22 +5,38 @@
  */
 int main(void)
 {
-	int ch;
-	int n;
+	int c, i, k, j;
 
-	for (ch = 48; ch <= 57; ch++)
+	for (c = 48; c <= 57; c++)
 	{
-		for (n = 48; n <= 57; n++)
+		for (i = 48; i <= 57; i++)
 		{
-			putchar(ch);
-			putchar(n);
-			if (ch != 57 || n != 57)
+			for (k = 48; <= 57; k++)
 			{
-				putchar(44);
-				putchar(32);
+				for (j = 48; <= 57; j++)
+				{
+					if (((K + j) > (c + i) && k >= c ) || c < k)
+					{
+						putchar(c);
+						putchar(i);
+						putchar(' ');
+						putchar(k);
+						putchar(j);
+
+						if (c + i + k + j == 227 && c == 57)
+						{
+							break;
+						}
+						else
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
+				}
 			}
 		}
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
