@@ -1,34 +1,73 @@
 #include <stdio.h>
-/**
- * main - Assign random number to variable
- * Return: Always 0 (success0
- */
-int main(void)
-{
-	int ch;
-	int n;
-	int m;
 
-		for (ch = 48; ch <= 57; ch++)
-		{
-			for (n = 49; n <= 57; n++)
-			{
-				for (m = 50; m <= 57; m++)
-				{
-					if (n > ch && m > n)
+
+
+/**
+ *
+ *   * main - Prints 3 combination of numbers
+ *
+ *     *
+ *
+ *       * Return: Always (Success)
+ *
+ *         */
+
+int main(void)
+
+{
+
+		int c, i, k;
+
+
+
+			for (c = '0'; c <= '9'; c++)
+
 					{
-						putchar(ch);
-						putchar(n);
-						putchar(m);
-						if (ch != 55 || n != 56)
-						{
-							putchar(44);
-							putchar(32);
-						}
-					}
-				}
-			}
-		}
-		putchar(10);
-		return (0);
+
+								for (i = '0'; i <= '9'; i++)
+
+											{
+
+															for (k = '0'; k <= '9'; k++)
+
+																			{
+
+																								if (c < i && i < k)
+
+																													{
+
+																																			putchar(c);
+
+																																								putchar(i);
+
+																																													putchar(k);
+
+
+
+																																																		if (c != '7')
+
+																																																								{
+
+																																																															putchar(',');
+
+																																																																					putchar(' ');
+
+																																																																										}
+
+																																																						}
+
+																											}
+
+																	}
+
+									}
+
+
+
+				putchar('\n');
+
+
+
+					return (0);
+
 }
