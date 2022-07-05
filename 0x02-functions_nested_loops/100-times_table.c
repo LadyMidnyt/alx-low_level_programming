@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * print_times_tables -print the n time tables
+ * return: Always
+ */
 void print_times_table(int n)
 {
 	int i, j, k;
