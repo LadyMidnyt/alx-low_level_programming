@@ -7,7 +7,7 @@
  * Return: 0 Always.
  */
 
-int main _abs(int n)
+int _abs(int n)
 {
 	if (n < 0)
 	{
