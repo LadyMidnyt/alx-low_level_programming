@@ -3,15 +3,15 @@
 
 /**
  * _abs - value absolute
- * @n: int to print
- * Retuen: 0 Always
+ * @n:The int to print
+ * Return: 0 Always.
  */
 
-int _abs(int n)
+int main _abs(int n)
 {
 	if (n < 0)
 	{
-		return (-1);
+		return (n * (-1));
 	}
 
 	else if (n == 0)
