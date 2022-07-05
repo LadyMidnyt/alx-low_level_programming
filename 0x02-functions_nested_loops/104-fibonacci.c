@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /*
- * main - finds and prints
+ * main - finds and print the first 98 numbers
  * Return: Always 0
  */
 int main(void)
 {
 	unsigned long int i, j, k, j1, j2, k1, k2;
+	
 	j = 1;
 	k = 2;
 
