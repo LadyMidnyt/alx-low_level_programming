@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - print number
+ * print_numbers - print numbers
  * Return: Always 0.
  */
 void print_numbers(void)
@@ -11,7 +11,7 @@ void print_numbers(void)
 	while (i < 10)
 	{
 		_putchar (i + '0');
-		i++:
+		i++;
 	}
 
 	_putchar ('\n');
