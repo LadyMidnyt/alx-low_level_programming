@@ -3,8 +3,9 @@
 /**
  * _isupper - evalue if letter is uppercase.
  * @c: print int
- * Retuen: Always 0.
+ * Return: Always 0.
  */
+
 int _isupper(int c)
 {
 	if (c >= 'A' && C <= 'Z')
