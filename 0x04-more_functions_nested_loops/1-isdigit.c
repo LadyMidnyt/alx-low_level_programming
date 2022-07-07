@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isdigit - if is a digit
  * @c: print int
@@ -8,7 +7,7 @@
 
 int _isdigit(int c)
 {
-	if (c <= 48 && c >=57)
+	if (c >= 48 && c <= 57)
 	{
 		return (1);
 	}
